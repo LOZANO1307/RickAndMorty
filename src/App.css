@@ -1,0 +1,47 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 28px 20px 48px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.App-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  letter-spacing: 0.5px;
+  /* Gradiente recortado al texto — puro CSS */
+  background: linear-gradient(90deg, var(--accent), #44d1e3, #ff61ab);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* El SVG hereda el color transparente del clip-text y saldria invisible,
+   el span le devuelve color propio */
+.App-title-icon {
+  display: inline-flex;
+  color: var(--accent);
+  filter: drop-shadow(0 0 6px rgba(151, 206, 76, 0.45));
+}
+
+main {
+  margin-top: 10px;
+}
+
+.App-footer {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin-top: 44px;
+}

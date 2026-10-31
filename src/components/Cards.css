@@ -1,0 +1,13 @@
+.Cards {
+  display: grid;
+  /* Grilla fluida, se adapta sola al ancho */
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.Cards-empty {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 1.05rem;
+  padding: 60px 0;
+}

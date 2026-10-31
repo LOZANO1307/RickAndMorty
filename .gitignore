@@ -1,0 +1,15 @@
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Entorno y secretos
+.env
+.env.*
+
+# Node
+node_modules/
+build/
+npm-debug.log*
+yarn-error.log*
